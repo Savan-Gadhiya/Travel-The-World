@@ -25,7 +25,7 @@ p,li{
     letter-spacing: 0.15rem;
 }
 h1,h2,h3{
-    margin-bottom: 0.5em;/* ahi h1,h2,h3 tarayey ni size paramane margin chnage thashe karan ke em vapariyu che atle */
+    margin-bottom: 0.5em;
     letter-spacing: 0.15em;
     font-weight: 500;
 }
@@ -41,7 +41,7 @@ h1,h2,h3{
 
 
 .container{
-    max-width: 1200px;/* game atli width hoy toy maximum width 1200 j leshe and jo width 1200 thi nani thashe to width avilable width na 90% thi jashe */
+    max-width: 1200px;
     width: 90%;
     margin: 0px auto;
 }
@@ -85,7 +85,7 @@ h1,h2,h3{
 }
 .btn-secoundery{
     border: 2px solid #e63946;
-    border-radius: 1.5em;    /* jetali text size hashe aena 1.5 gani border redius kari deshe */
+    border-radius: 1.5em;    
     color: #e63946;
     background: #fff;
 }
@@ -124,7 +124,7 @@ h1,h2,h3{
     float: right;
     margin-top: 1rem;
 }
-/* make sure the diffrence between .nav-item(s) (.nav-items) and .nav-item_ */
+
 .navbar .nav-item{
     display: inline-block;
     padding: 1rem;
@@ -137,7 +137,7 @@ h1,h2,h3{
 .navbar a{
     padding-bottom: 0.3rem;
 }
-.navbar a:hover{    /* oreder for : alink vlink hover active */
+.navbar a:hover{    /* order is:  alink vlink hover active */
     border-bottom: 1px solid #fff;
 }
 .navbar::after{
@@ -173,10 +173,7 @@ h1,h2,h3{
 .row{
     height: 350px;/* 350 */
     background: #fff;
-    box-shadow: 0px/*Horizontal_offset*/ 0px/*Vertical_offset*/ 20px/*balur*/ 0px/*spared*/ rgba(0, 0, 0, 0.300)/*color*/;/* box-shadow aevi rite aapavi ke bov khabar ni pade atle saru lage*/
-    /* box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.308); */
-    /* Horizontal_offset   vertical_offset   bluer   spared  color*/
-    /* box-shadow: 5px 5px 20px 90px  red; */
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.300);
 }
 .row1{
     margin-bottom: 10rem;
@@ -205,7 +202,6 @@ h1,h2,h3{
     object-fit:      cover;/* window ni size nani moti kariye to pan image no ratio maintain raheshe */
 }
 .row::after{
-    /* aa clear karavani jarur nathi karan ke aapade parent ne height aapi didhi che atle float clear karavani jarur nathi pan responsive banavavani thay tayare height auto kariye aene lidhe float clear kariyu */
     content: "";
     display: block;
     clear: both;
@@ -264,9 +260,6 @@ h1,h2,h3{
 .about{
     padding: 5rem 0;
 }
-/* .about-heading{
-    border-bottom: 6px solid #e63946;
-} */
 .about-heading::after{
     content: "";
     display: block;
@@ -475,7 +468,7 @@ h1,h2,h3{
 
 @media (max-width: 500px){
     html{
-        /* font-size: 8px; this and below both are same */
+        /* font-size: 8px; */
         font-size: 50%;
     }
     .navbar .nav-items,.navbar .logo{
@@ -504,7 +497,7 @@ h1,h2,h3{
         float: none;
         width: 100%;
         text-align: center;
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.300)/*color*/;/* box-shadow aevi rite aapavi ke bov khabar ni pade atle saru lage*/
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.300)/*color*/;
     }
     .features .box-2,
     .features .box-3{
@@ -538,7 +531,6 @@ h1,h2,h3{
 @media(min-width: 501px) and (max-width: 768px)
 {
     html{
-        /* font-size: 8px; this and below both are same */
         font-size: 50%;
     }
     p{
@@ -566,7 +558,7 @@ h1,h2,h3{
         float: none;
         width: 100%;
         text-align: center;
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.300)/*color*/;/* box-shadow aevi rite aapavi ke bov khabar ni pade atle saru lage*/
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.300);
     }
     .features .box-2,
     .features .box-3{
@@ -600,7 +592,6 @@ h1,h2,h3{
 
 @media (min-width: 769px) and (max-width: 1200px){
     html{
-        /* font-size: 9px; this and below both are same */
         font-size: 56.25%;
     }
     .row .text-box h2{
