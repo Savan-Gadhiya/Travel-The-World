@@ -1,2 +1,2 @@
 # Travel-The-World
-I made this front end website using html and css
+I made this front end of webpage using html and css.
